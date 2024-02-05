@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+
+}
+#box1{
+    position: static;
+    top: 20px;
+    left: 35px;
+    z-index: 2;/*in static we cant set z index value*/
+}
+#box2{
+    position: relative;
+    /*relative to its previous position*/
+    top: 30px;
+    right: 80px;
+    background-color: bisque;
+    z-index: -1;/*box1 will come above box 2*/
+    
+}
+#box3{
+    position: absolute;
+    top: 20px;
+    background-color: brown;/*relative to ancestor(non static) in this case it is body tag*/
+
+}
+#box4{
+    background-color: blue;
+    position: fixed;
+   top: 0;
+   background-image: url("../css_level2/bat_pic.jpg");
+   background-size:cover;
+}
+/*box 1 and box2 overlap on each other how can we find which will overlap on one another we do it using z indexing by default zindex is0 for all.
+and which came first will go down

@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+
+}
+div{
+    height: 60px;
+    width: 150px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#container{
+    height: 600px;
+    width: 600px;
+    display: flex;
+    /*by default flex-dirn is row*/
+    flex-direction:row;
+   justify-content: center;
+    flex-wrap:wrap;
+    align-items:flex-start;
+}
+#box1{
+    background-color: aqua;
+}
+#box2{
+    background-color: bisque;
+}
+#box3{
+    background-color: gray;
+}
+#box4{
+    background-color: blueviolet;
+    align-self: flex-end;/*align-self has hogher priority than align-item in contenent*/
+}
+#box5{
+    background-color: cadetblue;
+}
+#out{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+}
+#inn{
+   height: 100px;
+   width: 100px;
+   background-color: chocolate;
+   align-self:center ;
+}
+#mq{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+@media (width:600px){
+    #mq{
+        background-color: aqua;
+    }
+}
+@media (min-width:700px){
+    #mq{
+        background-color:black;
+    }
+}
+@media (max-width:400px){
+    #mq{
+        background-color:brown;
+    }
+}
+@media (min-width:750px) and (max-width:800px){
+    #mq{
+        background-color: darkgreen;
+    }
+}

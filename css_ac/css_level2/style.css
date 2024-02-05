@@ -1,0 +1,66 @@
+h1{
+    height: 100px;
+    background-color: aqua;
+    border-color: brown;
+    border-style: dashed;
+    border-width: 2px;
+    text-align: center;
+}
+/*
+div{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(21, 255, 0);
+    border-color: rgb(36, 18, 195);
+    border-style:dotted;
+    border-width: 4px;
+    border-radius: 15px;/*for round border if it is square we can also use 50% instead of x-px*/
+   /* padding-left: 2px;
+    padding-right: 4px;
+    padding-top: 1px;
+    padding-bottom: 3px;
+    /*or we can use padding:2px 1px 4px 3px; in clockwise direction*/
+   /* margin-top: 20px;
+}*/
+/*
+button{
+    border: 2px bold brown;
+    background-color: red;
+}
+*/
+
+/* MAKING AMAZON NAVBAR
+/*
+#navbar{
+    height: 60px;
+    width: auto;
+    background-color:#0f1111;
+    border-style: none;
+    border-radius: 0px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    color:coral;
+    margin-left: 0px;
+
+}
+button{
+    background-color: coral;
+}
+*/
+div{
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box2{
+    background-color: rgba(255,0, 255, 0.5);/*we can set opacity ranging from 0 to 1*/
+}
+
+

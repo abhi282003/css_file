@@ -1,0 +1,47 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    border: 2px solid black;
+  /*  transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:steps(5);
+    transition-delay: 2s;*/
+   /* transition: all 2s steps(5) 2s;*/
+   /* transform: rotate(180deg);
+    transform: scale(0.5);*/
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-timing-function: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: calc(2);
+    animation-direction: alternate;
+    
+}
+
+@keyframes anim{
+     from{background-color: blueviolet; left: 0px;}
+     
+    to{
+       background-color: red; right: 50px;
+    }
+}
+
+
+/*
+div:hover{
+    background-color: black;
+   /* width: 500px;
+    transform: rotate(180deg);
+    transform: scale(0.5);
+    transform: translate(50px);
+    transform: skew(50deg);
+    color: white;
+}
+div:active{
+    border: 10px solid red;
+}*/
+

@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("./amazon_logo.png");
+   height: 50px;
+   width: 100%;
+   background-size: cover;
+
+}
+.border
+{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 2px solid white;
+}
+.add-fis{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+.add-sec{
+    color: #ffffff;
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+}
+.search-bar{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    
+}
+

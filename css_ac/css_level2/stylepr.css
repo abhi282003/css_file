@@ -1,0 +1,36 @@
+.contentbox{
+    height: 100px;
+    width: 100px;
+    border-width: 2px;
+    border-color: brown;
+    border-style: dotted;
+    display: inline-block;
+}
+#navbar{
+    height: 60px;
+    width: auto;
+    background-color:#0f1111;
+    border-style: none;
+    border-radius: 0px;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: white;
+}
+#logo{
+    color:coral;
+    margin-left: 0px;
+
+}
+button{
+    background-color: coral;
+}
+#content{
+    height: 400px;
+}
+footer{
+    background-color:black;
+    color: aliceblue;
+    text-align: center;
+}

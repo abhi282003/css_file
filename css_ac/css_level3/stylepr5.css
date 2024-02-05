@@ -1,0 +1,10 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    background-image: url("../css_level2/pad.jpg");
+    background-size: contain;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
